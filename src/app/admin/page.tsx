@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from '@/store'
-import { addItem, deleteItem, updateItem, AdminItem } from '@/store/slices/adminSlice'
+import { RootState } from '@/src/store'
+import { addItem, deleteItem, updateItem, AdminItem } from '@/src/store/slices/adminSlice'
 import { v4 as uuidv4 } from 'uuid'
 
 export default function AdminPage() {

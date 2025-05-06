@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { ReduxProvider } from '@/store/provider'
+import { ReduxProvider } from '@/src/store/provider'
 import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
