@@ -1,10 +1,10 @@
-'use client'
+'use client';
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-6 py-20 text-center sm:text-left sm:items-start gap-8">
+    <section className="min-h-screen flex flex-col justify-center items-center px-6 py-20 text-center sm:text-left sm:items-start gap-8 bg-gray-50">
       <div className="space-y-4">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+        <h1 className="text-5xl sm:text-6xl font-bold tracking-tight">
           Hi, I’m <span className="text-blue-600">Anand Dubey</span>
         </h1>
         <p className="text-lg text-gray-600 max-w-xl">
@@ -27,5 +27,5 @@ export default function Home() {
         </a>
       </div>
     </section>
-  )
+  );
 }
